@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.square-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid seagreen;
+    
+}
+
+.square {
+    width: 24.37%;
+    height: 24vh;
+    border: solid rgba(29, 88, 55, 0.521);
+    transition: background-color 400ms;
+    display: flex;
+}
+
+.square:hover {
+    background-color: rgba(30, 68, 46, 0.171);
+}
+
+.treasure-image {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvu1pjbDMoLyvtM-tU298fWzqCtiF9hTWiLoHoHd9Rg&s');
+}
